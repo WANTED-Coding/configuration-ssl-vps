@@ -133,7 +133,7 @@ Note: if config on EC2 (AWS) -> edit inbound rules in security groups -> allow a
         }
         ```
         
-        **Remember save file default and restart nginx for apple change**
+        **Remember save file default and restart nginx for apply change**
         ```shell
         sudo service nginx restart
         ```
