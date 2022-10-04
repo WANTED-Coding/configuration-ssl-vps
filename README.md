@@ -132,5 +132,10 @@ Note: if config on EC2 (AWS) -> edit inbound rules in security groups -> allow a
             proxy_cache_bypass $http_upgrade;
         }
         ```
+        
+        **Remember save file default and restart nginx for apple change**
+        ```shell
+        sudo service nginx restart
+        ```
 
     
